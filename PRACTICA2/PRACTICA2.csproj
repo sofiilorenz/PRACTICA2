@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Colores.aspx" />
+    <Content Include="ColoresPro.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
@@ -78,6 +79,13 @@
     </Compile>
     <Compile Include="Colores.aspx.designer.cs">
       <DependentUpon>Colores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ColoresPro.aspx.cs">
+      <DependentUpon>ColoresPro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ColoresPro.aspx.designer.cs">
+      <DependentUpon>ColoresPro.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WebForm1.aspx.cs">
